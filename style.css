@@ -1,8 +1,10 @@
- table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+body {
+    font-family: arial, sans-serif;
+}
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
      content: " \25B4\25BE"
 }
  table {
-     font-family: arial, sans-serif;
      border-collapse: collapse;
      width: 100%;
 }
